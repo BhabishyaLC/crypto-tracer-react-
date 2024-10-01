@@ -1,0 +1,43 @@
+
+
+header {
+    background-color: #ad5e00;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a{
+    color: white;
+}
+
+.dropdown-container {
+    margin: 0 15px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+select {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid #333;
+}
+

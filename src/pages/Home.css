@@ -1,0 +1,47 @@
+/* Global Styles */
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 30px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.cta-button {
+  background-color: #f97316;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #ea580c;
+  transform: translateY(-5px);
+}
+
+/* Currencies Section */
+

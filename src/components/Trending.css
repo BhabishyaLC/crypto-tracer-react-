@@ -1,0 +1,93 @@
+.currencies {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  .currency-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeInUp 2s ease-in-out forwards;
+  }
+  
+  .currency-card {
+    background-color: black;
+    padding: 20px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .currency-card h3 {
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .currency-card h3  img{
+   margin-left: 10px;
+    width: 50px;
+  }
+  .currency-card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .currency-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1e3a8a;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
